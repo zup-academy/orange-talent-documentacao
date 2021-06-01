@@ -1,0 +1,71 @@
+cursos:
+  java_servlet:
+    title: Java Servlet Fundamentos da programação Web Java
+    alura: https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java
+    form_start_course: https://forms.gle/zafEBTfxUjomef1EA
+    form_end_course: https://forms.gle/zafEBTfxUjomef1EA
+    form_challenge: https://forms.gle/9nmFah4A33Mi67Cx5
+    order: 1
+  entendendo_http:
+    title: HTTP Entendendo a web por baixo dos panos
+    alura: https://www.alura.com.br/curso-online-http-fundamentos
+    form_start_course: https://forms.gle/MSLK8eKnVoxMtVue9
+    form_end_course: https://forms.gle/MSLK8eKnVoxMtVue9
+    form_challenge: https://forms.gle/iMyDjSPftxgbZBZ3A
+    order: 2
+  introducao_mysql:
+    title: Introdução ao SQL com MySQL Manipule e consulte dados
+    alura: https://www.alura.com.br/curso-online-mysql-manipule-dados-com-sql
+    form_start_course: https://forms.gle/5PM1Jo11Tbp3zoJR8
+    form_end_course: https://forms.gle/5PM1Jo11Tbp3zoJR8
+    form_challenge: https://docs.google.com/forms/d/e/1FAIpQLSdFC2CKDnX1gGMRXF0beZJsQWEL5jC5oAqhVQbvtkvT3kgz2g/viewform
+    order: 3
+  avancando_sql_com_mysql:
+    title: Consultas SQL Avançando no SQL com MySQL
+    alura: https://www.alura.com.br/curso-online-mysql-consultas-sql
+    form_start_course: https://forms.gle/WDJ3pFRNM6WLkqBe6
+    form_end_course: https://forms.gle/WDJ3pFRNM6WLkqBe6
+    form_challenge: https://forms.gle/aBzxxKDTDvYEPHSe8
+    order: 4
+  java_jpa_com_hibernate:
+    title: Java e JPA Persista seus objetos com a JPA2 e Hibernate
+    alura: https://cursos.alura.com.br/course/jpa-hibernate-persistencia-objetos
+    form_start_course: https://forms.gle/ZG2g8QCftoWNcpNT9
+    form_end_course: https://forms.gle/ZG2g8QCftoWNcpNT9
+    form_challenge: https://docs.google.com/forms/d/e/1FAIpQLSeNnZo7EEdsenPSK3UxD2KwEdbKR3g7MzvEuLYemrBmnFHuGA/viewform
+    order: 5
+  spring_boot_construa_rest_api:
+    title: Spring Boot API REST Construa uma API
+    alura: https://www.alura.com.br/curso-online-spring-boot-api-rest
+    form_start_course: https://forms.gle/aFFsKwaU6fVm3wa68
+    form_end_course: https://forms.gle/aFFsKwaU6fVm3wa68
+    form_challenge: https://forms.gle/wk9yBa2yLkZjmRgSA
+    order: 6
+  spring_boot_rest_api_seguranca_cache:
+    title: Spring Boot API Rest Segurança da API, Cache e Monitoramento
+    alura: https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento
+    form_start_course: https://forms.gle/x1fep4xGm22kRw3m8
+    form_end_course: https://forms.gle/eErweMN3xxA3AMjt5
+    form_challenge: https://forms.gle/DqJDioq6pHBbLdic9
+    order: 7
+  spring_boot_profiles_testes_deploy:
+    title: Spring Boot e Teste Profiles, Testes e Deploy
+    alura: https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy
+    form_start_course: https://forms.gle/nXcSn1Pf2PfhFxGh6
+    form_end_course: https://forms.gle/nXcSn1Pf2PfhFxGh6
+    form_challenge: https://docs.google.com/forms/d/e/1FAIpQLSfrfYGzHj8hXZvRJGONRXqFCHSU6KQwe0i86rrRQtfuXSuWVA/viewform
+    order: 8
+  spring_data_jpa:
+    title: Spring Data JPA Repositórios, Consultas, Projeções e Specifications
+    alura: https://www.alura.com.br/curso-online-spring-data-jpa
+    form_start_course: https://forms.gle/F1HzNGdcHTmKijbs8
+    form_end_course: https://forms.gle/F1HzNGdcHTmKijbs8
+    form_challenge: https://docs.google.com/forms/d/e/1FAIpQLSeoVYhY5Ee09-Y7ZeAJyJj6YgfHHhx3kMJxSixSYooZLLqmgQ/viewform
+    order: 9
+  solid_com_java:
+    title: SOLID com Java Orientação a Objetos com Java
+    alura: https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid
+    form_start_course: https://forms.gle/FdbZ3WA34Xx82d7n8
+    form_end_course: https://forms.gle/FdbZ3WA34Xx82d7n8
+    form_challenge: https://forms.gle/AZhpK5SX9a2ae8qe7
+    order: 10

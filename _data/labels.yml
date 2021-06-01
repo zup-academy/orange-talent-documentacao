@@ -1,0 +1,6 @@
+default_labels:
+  form_start_course: Clique aqui para responder o questionário no início do curso
+  form_end_course: Clique aqui para responder o questionário no final do curso
+  form_challenge: Clique aqui para fazer o exercício de resolução de problema
+  alura: Clique aqui para realizar o curso
+  conteudo: Clique aqui para acessar o material do curso

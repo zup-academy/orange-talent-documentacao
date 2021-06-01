@@ -1,0 +1,16 @@
+cursos:
+  tdd:
+    title: Introdução a testes automatizados
+    alura: https://cursos.alura.com.br/course/tdd
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSce-T1V3xVS6JzGG71PJ5_uqTjAawV26JVn5gx6mq8DSbl8AA/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSce-T1V3xVS6JzGG71PJ5_uqTjAawV26JVn5gx6mq8DSbl8AA/viewform
+    form_challenge: https://docs.google.com/forms/d/e/1FAIpQLSdDf7Mq-jBVkUJCU96464MGt-1Af5Z9yD4J4VveaW9P9XSeMg/viewform
+    order: 1
+  testes_integracao:
+    title: Teste de Integração Testes SQL e DAOs automatizados em Java
+    alura: https://cursos.alura.com.br/course/teste-de-integracao
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform
+    form_challenge: https://docs.google.com/forms/d/e/1FAIpQLSfuzTJIal73B_WA3cfrP004jPRCUwaiz4lo0DZ8sLIey6fS5A/viewform
+    order: 2
+  

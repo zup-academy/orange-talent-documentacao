@@ -1,0 +1,88 @@
+cursos:
+  docker:
+    title: Introdução a Docker
+    alura: https://www.alura.com.br/curso-online-docker-e-docker-compose
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform
+    form_challenge: https://forms.gle/GJ4rXr31KVg2p7289
+    order: 1
+  healthcheck:
+    title: Health Check, Readiness & Liveness Check e Spring Boot Actuator
+    alura: https://cursos.alura.com.br/course/teste-de-integracao
+    conteudo: informacao_procedural/health_check_readiness_check_&_spring_boot_actuator.md
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSfC38gykjbDP2ifAxhiz0_QiqrOBJRZxj1Gm5C2B1lnBlzX4A/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSfC38gykjbDP2ifAxhiz0_QiqrOBJRZxj1Gm5C2B1lnBlzX4A/viewform
+    form_challenge: https://docs.google.com/forms/d/e/1FAIpQLSdjzx1N_bnG3D1q1bk2xME3MtEbbm2ZUiinjkZk9yWEW_MRUA/viewform
+    order: 2
+  seguranca_cloud_native:
+    title: Segurança em ambientes Cloud Native
+    alura: N/A
+    conteudo: informacao_procedural/seguranca_cloud_native.md
+    form_start_course: https://forms.gle/7vRESyLPZfYq4VXg9
+    form_end_course: https://forms.gle/7vRESyLPZfYq4VXg9
+    form_challenge: https://forms.gle/2y93wvkhpHYycJxt8
+    order: 2
+  introducao_oauth:
+    title: Introdução a OAuth
+    alura: N/A
+    conteudo: informacao_suporte/oauth2.md
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSdbo1yVJvDAv6Jj0S4eIWeEH13Rk32tJUSs3hTe4IkLejf7ig/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSdbo1yVJvDAv6Jj0S4eIWeEH13Rk32tJUSs3hTe4IkLejf7ig/viewform
+    form_challenge: https://docs.google.com/forms/d/e/1FAIpQLSdbo1yVJvDAv6Jj0S4eIWeEH13Rk32tJUSs3hTe4IkLejf7ig/viewform
+    order: 2
+  introducao_keycloack:
+    title: Introdução a Keycloak
+    alura: N/A
+    conteudo: informacao_suporte/keycloak.md
+    form_start_course: https://forms.gle/ZBHPJrTcpKoxCFKd7
+    form_end_course: https://forms.gle/ZBHPJrTcpKoxCFKd7
+    form_challenge: #
+    order: 2
+  introducao_metricas:
+    title: Introdução a Métricas
+    alura: N/A
+    conteudo: informacao_procedural/metric.md
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSdKubAqBlcbyyIRdP9qzezK883dTMrUMRIugQZF-67bq44rnA/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSdKubAqBlcbyyIRdP9qzezK883dTMrUMRIugQZF-67bq44rnA/viewform
+    form_challenge: #
+    order: 2
+  introducao_prometheus:
+    title: Introdução ao Prometheus
+    alura: N/A
+    conteudo: informacao_procedural/prometheus.md
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLScrQoTV0-KGpaGaB5xZwR9OOig_gALjOpRINyoloCJ58tRbbg/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLScrQoTV0-KGpaGaB5xZwR9OOig_gALjOpRINyoloCJ58tRbbg/viewform
+    form_challenge: #
+    order: 2
+  introducao_spring_actuator:
+    title: Spring Actuator e métricas
+    alura: N/A
+    conteudo: informacao_suporte/spring-actuator-metrics.md
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSdaxf94jWBRHw9jVISxNDxoHOvdWcE274cjV__GoHxKBeaT5Q/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSdaxf94jWBRHw9jVISxNDxoHOvdWcE274cjV__GoHxKBeaT5Q/viewform
+    form_challenge: #
+    order: 2
+  introducao_open_tracing:
+    title: Introdução a Open Tracing
+    alura: N/A
+    conteudo: informacao_procedural/open-tracing.md
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLScMq_35oDnbAjyPsuCW7nagpt6NSnB4916KfyvUWT5tShSqEA/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLScMq_35oDnbAjyPsuCW7nagpt6NSnB4916KfyvUWT5tShSqEA/viewform
+    form_challenge: #
+    order: 2
+  introducao_open_tracing_jaeger:
+    title: Introdução ao Jaeger como Open Tracing
+    alura: N/A
+    conteudo: informacao_suporte/jaeger.md
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSeiLaxvdo0xh2brlzQAMeerA2bGKUkEmLDWRVy8sjftCuklbA/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSeiLaxvdo0xh2brlzQAMeerA2bGKUkEmLDWRVy8sjftCuklbA/viewform
+    form_challenge: #
+    order: 2
+  introducao_kafka:
+    title: Introdução a Apache Kafka
+    alura: https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos
+    conteudo: informacao_suporte/jaeger.md
+    form_start_course: https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform
+    form_end_course: https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform
+    form_challenge: #
+    order: 2
