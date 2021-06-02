@@ -15,6 +15,6 @@ course_name: introducao_spring_actuator
 # {{  course.title }}
 
 1. [{{ labels.form_start_course }}]({{course.form_start_course}})
-2. [{{ labels.conteudo }}]({% link {{ course.conteudo }} %} )
+2. [{{ labels.conteudo }}]({% link informacao_suporte/spring-actuator-metrics.md %} )
 3. [{{ labels.form_end_course }}]({{ course.form_end_course }})
 4. [{{ labels.form_challenge }}]({{ course.form_challenge }})

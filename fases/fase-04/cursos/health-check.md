@@ -15,6 +15,6 @@ course_name: healthcheck
 # {{  course.title }}
 
 1. [{{ labels.form_start_course }}]({{course.form_start_course}})
-2. [{{ labels.conteudo }}]({% link {{ course.conteudo }} %} )
+2. [{{ labels.conteudo }}]({% link informacao_procedural/health_check_readiness_check_&_spring_boot_actuator.md %} )
 3. [{{ labels.form_end_course }}]({{ course.form_end_course }})
 4. [{{ labels.form_challenge }}]({{ course.form_challenge }})
