@@ -107,6 +107,10 @@ kramdown:
     block:
       line_numbers: false
 
+i18n:
+  content_label: Lista de conteúdo
+
+
 compress_html:
   clippings: all
   comments: all
