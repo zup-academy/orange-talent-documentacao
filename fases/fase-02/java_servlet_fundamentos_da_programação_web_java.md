@@ -15,7 +15,7 @@ course_name: java_servlet
 
 # {{  course.title }}
 
-1. [{{ labels.form_start_course }}](course.form_start_course)
-2. [{{ labels.alura }}](course.alura)
-3. [{{ labels.form_end_course }}](course.form_end_course)
-4. [{{ labels.form_challenge }}](course.form_challenge)
+1. [{{ labels.form_start_course }}]({{ course.form_start_course }})
+2. [{{ labels.alura }}]({{ course.alura }})
+3. [{{ labels.form_end_course }}]({{ course.form_end_course }})
+4. [{{ labels.form_challenge }}]({{ course.form_challenge }})

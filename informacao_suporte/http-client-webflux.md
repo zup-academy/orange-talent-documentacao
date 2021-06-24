@@ -9,9 +9,9 @@ Com o lançamento da versão 5 do framework, foi criada uma nova maneira de real
 chamadas para sistemas externos que exponham seus serviços via HTTP.
 
 Essa nova API suporta chamadas assíncronas ou síncronas, então caso você opte
-em usar uma versão do Spring que dê suporte ao WebFlux você pode usá-la. 
+por usar uma versão do Spring que dê suporte ao WebFlux você pode usá-la. 
 
-Assim como o RestTemplate o Spring Webclient delega a conexão e tranporte para uma biblioteca HTTP.  
+Assim como o RestTemplate o Spring Webclient delega a conexão e transporte para uma biblioteca HTTP.  
 
 ## Versão Síncrona
 
@@ -25,7 +25,7 @@ Cartao cartao = client.get().uri("http://localhost:9999/api/cartoes/1111").retri
 Vamos explorar um pouco a construção acima. Utilizamos o verbo _HTTP GET_, logo em seguida indicamos qual _URI_ nosso serviço está disponível,
 fazemos algumas conversões e serializações e por fim explicitamente a instrução **block()** que torna nossa versão 100% síncrona.
 
-Como podemos perceber essa API é mais recente é tem um design um pouco mais fluído e permite
+Como podemos perceber essa API é mais recente e tem um design um pouco mais fluído e permite
 com que consigamos identificar as características de uma chamada HTTP nas próprias chamadas de métodos.
 
 ## Versão Assíncrona
@@ -43,15 +43,12 @@ WebClient client = WebClient.create();
 Mono<Cartao> cartao = client.get().uri("http://localhost:9999/api/cartoes/1111").retrieve().bodyToMono(Cartao.class)
 
 ```
-Explorando
 
-
-
-## Informações de suporte
+## Informações de Suporte
 
 - O que é Spring [Webflux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html)?
-- Quer descobrir que biblioteca o Spring WebClient usa por padrão. [Clique aqui!!!](https://github.com/reactor/reactor-netty)
-- Ainda tenho algumas dúvidas sobre o WebClient. [A documentação completa você pode encontra aqui.](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-client)
+- Quer descobrir que biblioteca o Spring WebClient usa por padrão. [Clique aqui!](https://github.com/reactor/reactor-netty)
+- Ainda tenho algumas dúvidas sobre o WebClient. [A documentação completa você pode encontrar aqui.](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-client)
 - Se você está curioso e quer ver como podemos implementar uma pequena aplicação utilizando a stack reativa do
 spring. [Este link é um guia inicial para investir nessa jornada](https://spring.io/guides/gs/reactive-rest-service/)
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Gerando projeto com Spring Initializr
+title: Gerando projeto com Spring Initializr 
 parent: Informação Procedural
 ---
 # Gerando projeto com Spring Initializr
 
-Olá, nesse tutorial vamos aprender como gerar um projeto utilizando o [Spring Initializr](https://start.spring.io/), 
+Nesse tutorial vamos aprender como gerar um projeto utilizando o [Spring Initializr](https://start.spring.io/), 
 mas afinal o que é Spring Initializr?
 
 ## Spring Initializr
@@ -24,19 +24,19 @@ Após entrar no [Spring Initializr](https://start.spring.io/) terá inúmeras op
 
 1º Passo é definir qual tipo de projeto, conforme imagem abaixo:
 
-![alt text](../images/spring-001.png "Spring Initializr")
+![alt text](/assets/images/spring-001.png "Spring Initializr")
 
 2º Passo é definir qual linguagem de programação iremos utilizar em nosso projeto, conforme imagem abaixo:
 
-![alt text](../images/spring-002.png "Spring Initializr")
+![alt text](/assets/images/spring-002.png "Spring Initializr")
 
 3º Passo é definir qual versão do Spring iremos utilizar, conforme imagem abaixo:
 
-![alt text](../images/spring-003.png "Spring Initializr")
+![alt text](/assets/images/spring-003.png "Spring Initializr")
 
 4º Passo é definir as informações do nosso projeto, conforme imagem abaixo:
 
-![alt text](../images/spring-004.png "Spring Initializr")
+![alt text](/assets/images/spring-004.png "Spring Initializr")
 
 Este passo é extremamente importante, pois define informações importantes sobre seu projeto:
 
@@ -48,21 +48,21 @@ Este passo é extremamente importante, pois define informações importantes sob
 
 5º Passo é definir qual tipo de empacotamento nós iremos utilizar no projeto, conforme imagem abaixo:
 
-![alt text](../images/spring-005.png "Spring Initializr")
+![alt text](/assets/images/spring-005.png "Spring Initializr")
 
 6º Passo é definir qual versão da linguagem Java iremos utilizar, conforme imagem abaixo:
 
-![alt text](../images/spring-006.png "Spring Initializr")
+![alt text](/assets/images/spring-006.png "Spring Initializr")
 
 7º Passo e último, uffa, é definir as dependências que gostaria de utilizar no seu projeto, conforme imagem abaixo:
 
-![alt text](../images/spring-007.png "Spring Initializr")
+![alt text](/assets/images/spring-007.png "Spring Initializr")
 
-Quer saber quais são os projetos/ módulos do [Spring](https://spring.io/), acesse o link abaixo:
+Quer saber quais são os projetos \ módulos do [Spring](https://spring.io/), acesse o link abaixo:
 
-- [Projetos](https://spring.io/projects)
-- [Spring Framework](https://spring.io/projects/spring-framework)
-- [Spring Boot](https://spring.io/projects)
-- [Spring Data](https://spring.io/projects/spring-data)
+- Projetos: https://spring.io/projects
+    - Spring Framework: https://spring.io/projects/spring-framework
+    - Spring Boot: https://spring.io/projects
+    - Spring Data: https://spring.io/projects/spring-data
     
 **Pronto! Temos um projeto, bora começar a codificar?**

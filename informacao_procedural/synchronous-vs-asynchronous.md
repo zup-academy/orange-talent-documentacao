@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Qual diferença entre síncrono e assíncrono?
+title: Qual a diferença entre síncrono e assíncrono? 
 parent: Informação Procedural
 ---
-
-# Qual diferença entre síncrono e assíncrono?
+# Qual a diferença entre síncrono e assíncrono?
 
 No desenvolvimento de software é bastante comum a gente ouvir os termos síncrono e assíncrono, mas qual é a diferença 
 entre eles?
@@ -24,7 +23,7 @@ passos a seguir até o retorno:
 
 5º Servidor responde a requisição
 
-Em todos esses passos o requisitante ficou aguardando os mesmos a serem executados sequencialmente, ou seja, sincronamente!
+Em todos esses passos o requisitante ficou aguardando os mesmos a serem executados sequencialmente, ou seja, sincronicamente!
 
 Quando falamos de assíncrono, estamos falando em não aguardar os passos a serem executados, pois eles estão sendo 
 executados em `segundo plano`!
@@ -48,7 +47,7 @@ loja, demais né!?
 
 Se ainda está confuso, não se preocupe, uma imagem vale mais que mil palavras!
 
-![alt text](../images/synchronous-vs-asynchronous-001.png "Synchronous vs Asynchronous")
+![alt text](/assets/images/synchronous-vs-asynchronous-001.png "Synchronous vs Asynchronous")
 
 Ainda está confuso, o que acha de um exemplo do mundo real?
 
@@ -61,9 +60,7 @@ a jogar!
 
 No processo assíncrono, você pede uma pizza por telefone, volta a jogar e somente quando a pizza chegar você para de jogar!
 
-Demais né!?
-
-![alt text](../images/synchronous-vs-asynchronous-002.png "Synchronous vs Asynchronous")
+![alt text](/assets/images/synchronous-vs-asynchronous-002.png "Synchronous vs Asynchronous")
 
 Voltando para nosso Bootcamp, quando falamos de `segundo plano`, estamos falando de processar assíncronamente e 
 existem várias formas de processar em `segundo plano', como por exemplo:
@@ -71,9 +68,7 @@ existem várias formas de processar em `segundo plano', como por exemplo:
 - Executar uma operação assíncronamente de tempos em tempos, ou seja, agendada!
 - Executar uma operação assíncronamente quando requisitada via API, Mensagem, etc.
 
-Demais né!
-
-## Dicas de Luram Archanjo
+## Dicas 
 
 Geralmente em sistemas legados é utilizado muito o `polling` que é uma técnica de ficar em tempos em 
 tempos executando uma operação, como por exemplo:
@@ -82,5 +77,5 @@ Imagina que preciso enviar email assíncronamente, porém o sistema legado salva
 dados, portanto eu preciso agendar uma `tarefa` que será executada a cada um minuto, para verificar se tem email a ser 
 enviado na base de dados.
 
-Hoje temos outras formas de fazer isso, porém não temos o histórico do porque tomaram essa decisão o bom é que sabemos 
+Hoje temos outras formas de fazer isso, porém não temos o histórico do porquê tomaram essa decisão, o bom é que sabemos 
 como lidar!

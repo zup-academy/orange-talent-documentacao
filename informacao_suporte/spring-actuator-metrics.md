@@ -39,7 +39,7 @@ Eba, está tudo configurado! Vamos testar?
 
 Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:8080/actuator/prometheus`!
 
-Deu tudo certo!? Nossa aplicação agora está expondo sua métrica! 
+Deu tudo certo? Nossa aplicação agora está expondo sua métrica! 
 
 Digamos que entramos em contato com o time de operação \ sustentação para informar que a sua aplicação está pronta para 
 ser monitorada, e tivemos um retorno do time, dizendo que precisamos adicionar uma LABEL com o nome da aplicação e qual 
@@ -94,18 +94,15 @@ management.metrics.tags.ambiente=${AMBIENTE:desenvolvimento}
 
 Demais né! Lembre-se de ler abaixo sobre segurança é extremamente importante!
 
-## Dicas de Luram Archanjo
+## Dicas 
 
+Não negligencie as informações que você está expondo sobre a sua infraestrutura.
 Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas, como por exemplo:
 
 - Adicionar autenticação
 - Adicionar autorização
 
-## Dicas de Claudio Eduardo Oliveira
-
-Não negligencie as informações que você está expondo sobre a sua infraestrutura.
-
-# Informação de Suporte
+## Informação de Suporte
 
 Está em dúvida de como configurar o Spring Boot Actuator? [Aqui você encontra como fazer isto!](../informacao_suporte/spring-actuator.md)
 

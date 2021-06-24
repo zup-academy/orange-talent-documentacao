@@ -49,7 +49,7 @@ tentativas.
 
 Vamos ver a tela de login
 
-![login grafana](../images/grafana_login.png " login grafana")
+![login grafana](/assets/images/grafana_login.png " login grafana")
 
 Como falamos anteriormente o **Grafana** é uma ferramenta de _Criação e Visualização de Gráficos_, então ele não tem 
 nenhum dado incluído na ferramenta logo, precisamos configurar nossa fonte de informação de dados e imagina qual seria 
@@ -63,7 +63,7 @@ entre outras opções.
 
 Vamos ver isso na figura abaixo!
 
-![menus grafana](../images/menus_grafana.png  "menus grafana")
+![menus grafana](/assets/images/menus_grafana.png  "menus grafana")
 
 Pronto! Esse foi nosso primeiro acesso ao grafana, uma ferramentas bastante poderosa na criação e configuração 
 de gráficos.

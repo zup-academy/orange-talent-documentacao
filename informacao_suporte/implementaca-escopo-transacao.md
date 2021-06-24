@@ -1,9 +1,9 @@
 ---
 layout: default
-title: #Uma ideia para escopar transação com o banco de dados no Spring 
+title: Uma ideia para fazer um escopo da transação com o banco de dados no Spring 
 parent: Informação Suporte
 ---
-## Uma ideia para escopar transação com o banco de dados no Spring
+# Uma ideia para fazer um escopo da transação com o banco de dados no Spring
 
 ```java
 @Component
@@ -30,7 +30,7 @@ public class ExecutorTransacao {
 }
 ```
 
-A classe acima salva, atualiza e executa funções no escopo de uma transação. Ela tem uma complexidade baixa do ponto de vista tecnologias utilizadas(usa apenas o que é padrão do framework e da linguagem Java). De quebra ela pode ser reutilizada por todo santo projeto. 
+A classe acima salva, atualiza e executa funções no escopo de uma transação. Ela tem uma complexidade baixa do ponto de vista das tecnologias utilizadas(usa apenas o que é padrão do framework e da linguagem Java). De quebra ela pode ser reutilizada por todo santo projeto. 
 
 ## Exemplos de uso
 
