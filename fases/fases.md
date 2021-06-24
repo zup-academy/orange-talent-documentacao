@@ -6,8 +6,8 @@ has_children: true
 permalink: conteudo/fases
 ---
 
-# Utilities
+# Fases do bootcamp
 {: .no_toc }
 
-Aqui estaria o texto da turma size or weight, add color, or hide (or show) something at a specific screen size.
+Aqui vocês podem visualizar quais são as fases do nosso bootcamp.
 {: .fs-6 .fw-300 }

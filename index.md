@@ -19,7 +19,10 @@ Aqui deverá conter um texto legal de boas vindas para a turma.
 
 ### Calendário da turma
 
-Aqui colocaríamos uma imagem do calendário da turma para que fique fácil a visualização e cronograma da turma
+Aqui temos o cronograma de como devemos seguir com o bootcamp
+
+
+![Calendário do bootcamp](/assets/images/calendario-ot6.png " calendário do bootcamp")
 
 ### Alunos
 

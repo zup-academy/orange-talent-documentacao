@@ -5,7 +5,7 @@ parent: Informação Suporte
 ---
 # Padronização de erros utilizada pelo Spring Boot?
 
-Estamos construíndo um produto de geração de cartão, transação, etc. E algum parceiro tanto interno quanto externo gostaria 
+Estamos construindo um produto de geração de cartão, transação, etc. E algum parceiro tanto interno quanto externo gostaria 
 de se integrar com a gente, ou seja, gostaria de usar nossas APIs e para que a integração seja o mais eficiente possível 
 precisamos enriquecer nossas APIs com detalhes, inclusive no cenário de erro!
 
@@ -23,9 +23,9 @@ Estamos bem contextualizados, certo!?
 Ainda não, quando falamos de APIs precisamos definir um modelo único de erro, para que seja uniforme em todas as APIs, 
 assim o parceiro tem uma sensação de familiaridade e fica muito mais fácil outro sistema se integrar com o nosso produto!
 
-Imagina só! Termos 10 APIs cada uma com um formato de erro diferente!
+Imagina só! Termos 10 API's cada uma com um formato de erro diferente!
 
-# Vamos fazer isso com Spring, então!
+# Vamos fazer isso com Spring!
   
 O Spring fornece uma forma de tratar todos os erros não tratados que aconteceram na camada da nossa API, ou seja, no 
 nosso Controller.
@@ -79,11 +79,11 @@ public class MeuHandlerAdvice {
 }
 ```
 
-**4** Está tudo configurado, agora precisamos começar dar inteligência para o nosso `HandlerAdvice`!
+**4°** Está tudo configurado, agora precisamos começar dar inteligência para o nosso `HandlerAdvice`!
 
 Vamos começar tratando os erros de [Bean Validation](../informacao_suporte/bean-validation.md)?
 
-Quando é violado alguma restrição do Bean Validation, é lançado a exceção [MethodArgumentNotValidException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/MethodArgumentNotValidException.html).
+Quando é violado alguma restrição do Bean Validation, é lançada a exceção [MethodArgumentNotValidException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/MethodArgumentNotValidException.html).
 
 Então é ela que precisamos tratar! Para isto o Spring fornece o anotação [@ExceptionHandler](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ExceptionHandler.html)
 
@@ -111,9 +111,9 @@ public class MeuHandlerAdvice {
 ```
 
 Pronto! Nesse trecho de código acima, estamos tratando e recebendo a exceção MethodArgumentNotValidException no parâmetro, 
-pois o Spring irá passar como parâmetro para a gente, demais né!?
+pois o Spring irá passar como parâmetro para a gente.
 
-E a partir do momento que temos a exceção, podemos usufruir da mesma, como por exemplo no código acima, que estamos 
+E a partir do momento que temos a exceção podemos usufruir da mesma, como por exemplo no código acima, onde estamos 
 pegando todos os campos que deram erro e formatando de acordo com o erro padrão:
 
 ```json
@@ -125,7 +125,7 @@ pegando todos os campos que deram erro e formatando de acordo com o erro padrão
 }
 ```
 
-Demais né!?
+Demais né?
 
 Mais e os outros casos de uso, como por exemplo [422](../informacao_suporte/rest-422.md)!
 
@@ -161,9 +161,7 @@ Resposta da API
 }
 ```
 
-Demais né!?
-
-## Dicas de Luram Archanjo
+## Dicas
 
 Está é uma pratica utilizada pelo Spring Boot, porém acarreta outros problemas, como por exemplo:
 
@@ -189,10 +187,10 @@ public Proposta getProposta(@PathVariable("id") String id) {
 
 Nas camadas de serviço, utiliza exceção do negócio, caso necessário, e não voltada para API!
 
-# Informação de Suporte
+## Informação de Suporte
 
-Gostaria de saber a padronização de erros seguindo as boas práticas de Orientação a Objetos? [Aqui você encontra como fazer isso !!!](error-object-oriented.md)
+Gostaria de saber a padronização de erros seguindo as boas práticas de Orientação a Objetos? [Aqui você encontra como fazer isso!](error-object-oriented.md)
 
-Gostaria de saber a padronização de erros utilizada pela Zup? [Aqui você encontra como fazer isso !!!](../informacao_suporte/error-zup.md)
+Gostaria de saber a padronização de erros utilizada pela Zup? [Aqui você encontra como fazer isso!](../informacao_suporte/error-zup.md)
 
-Quer sabemos mais sobre Handler Advice, acesse o [link!](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
+Quer saber mais sobre Handler Advice, acesse o [link!](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)

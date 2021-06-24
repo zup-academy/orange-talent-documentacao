@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Healthcheck e Spring Actuactor! 
+title: Health Check 
 parent: Informação Procedural
 ---
-
 # Health Check
 
 Uma característica bastante importante que as aplicações devem implementar é o **Health Check**.
