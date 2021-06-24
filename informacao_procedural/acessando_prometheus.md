@@ -43,7 +43,7 @@ para monitoramento.
 
 Você deve ser apresentado à seguinte tela
 
-![home prometheus](../images/prometheus.png "home prometheus")
+![home prometheus](/assets/images/prometheus.png "home prometheus")
 
 Temos alguns menus na barra que são muito importante para checarmos as configurações do prometheus, as configurações relacionados ao 
 sistema estão no menu **Status**, uma parte importante legal é que o prometheus também conta com um sistema de alertas que pode ser instalado
@@ -57,8 +57,9 @@ ao prometheus estão listadas, perceba que precisamos trabalhar com bastante rig
 O menu Status é um menu que conta com diversos sub-menus relacionados a configuração do prometheus, podemos encontrar a versão do sistema, 
 configurações de runtime, os parâmetros de inicialização da ferramentas entre outras informações.
 
-Os pontos bastante importante relacionados à coleta de métricas são **Targets** e **Service Discovery**, estes são relacionados à como o prometheus está operando
-em relação a obtenção dos valores da métricas. 
+Os pontos importantes
+relacionados à coleta de métricas são **Targets** e **Service Discovery**, estes são relacionados à como o Prometheus está operando
+em relação a obtenção dos valores das métricas. 
 
 Vamos entender isso agora!
 
@@ -68,14 +69,14 @@ Vamos entender isso agora!
 configurações são realizadas através do arquivo de configuração _prometheus.yaml_, mas este pode ser um trabalho de infra, para nosso contexto basta
 entendermos que precisamos avisar o prometheus que ele precisa buscar métricas.
 
-Essa tela nos ajuda bastante a entender como estão nossos sistemas em relação ás coletas, ela mostra se o endpoint de coleta está ok, e podemos
+Essa tela nos ajuda bastante a entender como estão nossos sistemas em relação às coletas, ela mostra se o endpoint de coleta está ok, e podemos
 ver informações da última coleta e quanto tempo demorou. Quando há erro também conseguimos identificar o motivo.
 
 Então esta tela nos ajuda muito, vale a pena lembrar dela....algum momento ela pode te salvar!
 
 Vamos dar uma olhada nela.
 
-![home targets](../images/prometheus_targets.png "home targets")
+![home targets](/assets/images/prometheus_targets.png "home targets")
 
 Olha que legal, com um simples olhar já podemos perceber que nosso sistema de contas está com problema, olhe o campo State está marcado
 como **DOWN**, neste caso precisaríamos dar uma olhada nele.
@@ -89,11 +90,9 @@ arbitrariamente, mas imagine quando nossos sistemas tiverem dezenas de instânci
 que informar o prometheus, esta tarefa se tornaria inviável. Para isto o prometheus é capaz de se conectar com implementações de Service Discovery
 mais usadas no mercado como kubernetes e Consul por exemplo. Essas implementações são capazes de fornecer informações das instâncias para o prometheus.
 
-Olha que massa hein!
-
-Vamos dar uma olhada na tela
+Vamos dar uma olhada na tela:
    
-![home service discovery](../images/prometheus_service_discovery.png "home service discovery")
+![home service discovery](/assets/images/prometheus_service_discovery.png "home service discovery")
 
 Olha que legal, o prometheus é capaz de agrupar nossos targets por "nomes" e ainda mais consegue contá-los isso é muito útil quando contamos com algumas 
 instâncias de um mesmo serviço! Também é possível saber como eles foram descobertos, note que ele consegue mostrar as labels descobertas e as
@@ -106,13 +105,13 @@ Na home do prometheus escolha uma métrica qualquer e depois clique na tab **Gra
 Veja no exemplo, escolhemos a métrica de coletas de log do logback por nível. Cada linha de log é um evento, essa métrica visa mostrar quantos deles
 utilizamos.
 
-Nome da métricas:
+Nome da métrica:
 
 **transacoes_logback_events_total**
 
-Veja abaixo
+Veja abaixo:
 
-![home metrics](../images/sample_prometheus.png "metrics sample")
+![home metrics](/assets/images/sample_prometheus.png "metrics sample")
 
 Olha que legal, parece que nossas métricas estão sendo armazenadas corretamente. Sucesso!
 
@@ -120,7 +119,7 @@ Quer dizer mais ou menos sucesso, na verdade colocamos métricas mas parece que 
 Não consigo criar agregações e "juntar" métricas, e é por isso que outra ferramenta aparece em cena. O **Grafana** é uma ferramenta feita
 para renderizar gráficos e adivinha ele tem uma fortíssima integração com o prometheus...
 
-Opaaa.....quer ver como isso funciona dê uma olhada no [grafana neste link](../informacao_procedural/acessando_grafana.md)
+Quer ver como isso funciona dê uma olhada no [grafana neste link](../informacao_procedural/acessando_grafana.md)
 
 ## Informações de suporte
 
@@ -135,9 +134,9 @@ Opaaa.....quer ver como isso funciona dê uma olhada no [grafana neste link](../
 
 * Se por algum motivo, você se questionou sobre o mapeamento de portas no docker [esse link pode te ajudar em entender isso em detalhes](https://docs.docker.com/config/containers/container-networking/)
 
-* Se por acaso você se perguntou "Mas pera ae se nomenclatura de métricas pode ser um problema, será que existe uma padrão para isso?. [Neste link você vai encontrar um pouco disso](https://prometheus.io/docs/practices/naming/)
+* Se por acaso você se perguntou "Mas se nomenclatura de métricas pode ser um problema, será que existe uma padrão para isso?. [Neste link você vai encontrar um pouco disso](https://prometheus.io/docs/practices/naming/)
 
-* Talvez você possa estar interessado em explorar mais as configurações do prometheus. A documentação é o melhor caminho pra isso, [aqui você pode encontrá-la](https://prometheus.io/docs/prometheus/latest/configuration/configuration/)
+* Talvez você possa estar interessado em explorar mais as configurações do Prometheus. A documentação é o melhor caminho pra isso, [aqui você pode encontrá-la](https://prometheus.io/docs/prometheus/latest/configuration/configuration/)
 
 * Se você nunca ouviu falar de Service Discovery, [esse link pode te ajudar com isso](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/)
   

@@ -8,7 +8,7 @@ parent: Informação Suporte
 Sabemos que no OpenTracing existe o conceito de Span, que é um período que representa uma operação, como por exemplo, 
 uma requisição HTTP, na qual contém metadados extremamente importantes, como o **log**.
 
-Caso deseje reportar um **log** específico, como por exemplo, email do usuário, precisaremos instrumentar no código!
+Caso deseje reportar um **log** específico, como por exemplo, email do usuário, precisaremos instrumentar o código!
 
 Vamos fazer isso?
 
@@ -40,8 +40,7 @@ Span activeSpan = tracer.activeSpan();
 ```java
 activeSpan.log("Meu log");
 ```
-
-Demais né! Vamos testar?
+Vamos testar?
 
 Para testar precisamos verificar se o Jaeger foi iniciado, conforme está no docker-compose, para isto, vamos abrir em 
 nosso navegador favorito o endereço `http://localhost:16686/search`
@@ -51,11 +50,11 @@ Agora precisamos iniciar nossa aplicação e fazer algumas operações, como por
 Após fazer várias operações, entre no trace da operação que está o código e verifique se o **log** consta, 
 conforme imagem abaixo:
 
-![alt text](../images/open-tracing-009.png "OpenTracing")
+![alt text](/assets/images/open-tracing-009.png "OpenTracing")
 
 Demais né! Agora podemos utilizar vários **logs** para melhorar nosso processo de troubleshooting!
 
-## Dicas de Luram Archanjo
+## Dicas
 
 O Spring por padrão já cadastra todos os logs no Jaeger, portanto, não vejo necessidade de instrumentar no código! Porém 
 todo conhecimento é válido!

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Mas porque 422? Entendendo um pouco sobre REST!!! 
+title: Mas porque 422? Entendendo um pouco sobre REST! 
 parent: Informação Suporte
 ---
-# Mas porque 422? Entendendo um pouco sobre REST!!!
+# Mas porque 422? Entendendo um pouco sobre REST!
 
 Seguindo o estilo arquitetural REST temos que aplicar algumas características que o modelo define, portanto, todo erro 
 de negócio devemos representar como **422 Unprocessable Entity**, pois as informações obrigatórias foram preenchidas 
@@ -27,7 +27,7 @@ Content-Type: application/json
 }
 ```
 
-## Vamos fazer isso com Spring, então!!!
+## Vamos fazer isso com Spring!
 
 O Spring provê uma classe denominada ResponseEntity na qual você consegue passar todas as informações da requisição HTTP, 
 como por exemplo, status, body, header, etc.
@@ -39,7 +39,7 @@ public ResponseEntity<?> novaProposta(){
 }
 ```
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre status code? Acesse o [link!](../informacao_suporte/rest-status.md)
 

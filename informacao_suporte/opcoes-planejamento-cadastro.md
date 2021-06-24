@@ -9,7 +9,7 @@ parent: Informação Suporte
 2. Recebo os dados
 3. Mando os dados para um service/usecase
 4. Converto os dados para um objeto de domínio utilizando alguma classe de conversão
-5. Chamdo um repository para salvar
+5. Chamando um repository para salvar
 6. Retorno o objeto do service/usecase para o controller
 7. Gero a resposta para o cliente
 

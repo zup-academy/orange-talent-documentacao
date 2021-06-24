@@ -37,16 +37,16 @@ Faça o login na plataforma, caso você tenha algum problema em realizar o login
 Depois disso você deve certificar-se que você esteja no seu Realm previamente criado. Se por algum motivo você não criou seu Realm, sem problemas
 [este link vai te ajudar com isso](keycloak-realm.md)
 
-No canto superior esquerdo você pode ver o Realm selecionado, na figura abaixo estamos no Nosso-cartao, no menu **Configure** 
+No canto superior esquerdo você pode ver o Realm selecionado, na figura abaixo estamos no _"Nosso-cartão"_, no menu **Configure** 
 seleciona a opção **Clients** e então clique no botão **Create**. Como na figura abaixo:
 
-![image](../images/keycloak/keycloak-client-001.jpg "Image")
+![image](/assets/images/keycloak/keycloak-client-001.jpg "Image")
 
 Depois você será redirecionado para uma página onde você deverá preencher informações do cliente, como na figura abaixo
 
-![image](../images/keycloak/keycloak-client-002.jpg "Image")
+![image](/assets/images/keycloak/keycloak-client-002.jpg "Image")
 
-Eba! Você criou seu primeiro cliente! Demais né!?
+Eba! Você criou seu primeiro cliente!
 
 Agora que você criou seu primeiro **cliente**, podemos definir qual será o seu **tipo de concessão**, tais como:
 
@@ -58,11 +58,11 @@ Agora que você criou seu primeiro **cliente**, podemos definir qual será o seu
 
 Para definir qual será o **tipo de concessão** da sua aplicação, precisamos alterar ela conforme imagem abaixo:
 
-![image](../images/keycloak/keycloak-client-003.jpg "Image")
+![image](/assets/images/keycloak/keycloak-client-003.jpg "Image")
 
 Após abrir a sua aplicação para editá-la, terá três opções de **tipo de concessão**, conforme imagem abaixo:
 
-![image](../images/keycloak/keycloak-client-004.jpg "Image")
+![image](/assets/images/keycloak/keycloak-client-004.jpg "Image")
 
 - Para a **concessão** [Authorization Code](https://oauth.net/2/grant-types/authorization-code/) selecione a opção **Standard Flow Enabled**
 
@@ -71,4 +71,4 @@ Após abrir a sua aplicação para editá-la, terá três opções de **tipo de 
 - Para a **concessão** [Client Credentials](https://oauth.net/2/grant-types/client-credentials/) selecione a opção 
 **Access Type** como **confidential** e a opção **Service Accounts Enabled**
 
-Eba! Você criou seu primeiro **cliente** e configurou o **tipo de concessão**!
+Você criou seu primeiro **cliente** e configurou o **tipo de concessão**!

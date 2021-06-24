@@ -16,7 +16,7 @@ informações importantes do Span, como por exemplo:
 
 Essas informações são importantes para o troubleshooting de problemas e graças ao Spring elas são reportadas automaticamente!
 
-Caso deseje reportar uma **tag** específica, como por exemplo, email do usuário, precisaremos instrumentar no código!
+Caso deseje reportar uma **tag** específica, como por exemplo, email do usuário, precisaremos instrumentar o código!
 
 Vamos fazer isso?
 
@@ -59,14 +59,14 @@ Agora precisamos iniciar nossa aplicação e fazer algumas operações, como por
 Após fazer várias operações, entre no trace da operação que está o código e verifique se a **tag** consta, conforme imagem 
 abaixo:
 
-![alt text](../images/open-tracing-006.png "OpenTracing")
+![alt text](/assets/images/open-tracing-006.png "OpenTracing")
 
-Demais né! Agora podemos utilizar várias **tags** para melhorar nosso processo de troubleshooting, como por exemplo, filtrar 
+Agora podemos utilizar várias **tags** para melhorar nosso processo de troubleshooting, como por exemplo, filtrar 
 por todas as operações que o `luram.archanjo@zup.com.br` fez, conforme imagem abaixo:
 
-![alt text](../images/open-tracing-007.png "OpenTracing")
+![alt text](/assets/images/open-tracing-007.png "OpenTracing")
 
-## Dicas de Luram Archanjo
+## Dicas
 
 Use com parcimônia as tags, pois é um código de infraestrutura (trace) em conjunto com o código de negócio, portanto 
 tente segmentar!

@@ -31,11 +31,11 @@ public class MeuController {
 }
 ```
 
-Pronto!!!
+Pronto!
 
 Agora já sabemos como usar a anotação @GetMapping!
 
-# Como receber dados na minha API GET utilizando Spring?
+## Como receber dados na minha API GET utilizando Spring?
 
 Existem duas formas de receber dados em uma requisição HTTP do tipo GET, como por exemplo:
 
@@ -65,7 +65,7 @@ public class MeuController {
 ```
 
 Para mapear o Path Parameter no Spring, você tem que passar a expressão `{NOME_DA_VARIÁVEL}` na sua API, conforme 
-exemplo abaixo!
+exemplo abaixo:
 
 ```java
 @GetMapping("/v1/propostas/{identificador}")
@@ -100,10 +100,10 @@ public class MeuController {
 Neste nosso exemplo a gente mapeou em nossa API o query parameter `status` como sendo opcional, caso não passado o valor 
 padrão será `ATIVO`, demais né!
 
-Pronto!!!
+Pronto!
 
 Agora já sabemos como usar a anotação @GetMapping, @PathVariable e @RequestParam!
 
-#Informação de Suporte
+## Informação de Suporte
 
-Quer saber mais sobre como criar API's REST no Spring? [Aqui você encontra como fazer isso !!!](https://spring.io/guides/gs/rest-service/)
+Quer saber mais sobre como criar API's REST no Spring? [Aqui você encontra como fazer isso!](https://spring.io/guides/gs/rest-service/)

@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Backing Services. IV do 12 Factor Apps
+title: Backing Services. IV do 12 Factor Apps 
 parent: Informação Procedural
 ---
-
 # Backing Services. IV do 12 Factor Apps
 
 Nossas aplicações não vivem sozinhas na grande maioria dos casos, elas precisam interagir com alguns serviços externos. 

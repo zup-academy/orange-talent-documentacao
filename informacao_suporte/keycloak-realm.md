@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Como criar um Realm no keycloak 
+title: Como criar um Realm no Keycloak 
 parent: Informação Suporte
 ---
-# Como criar um Realm no keycloak
+# Como criar um Realm no Keycloak
 
 O keycloak tem um conceito de Realm, que na prática é um grupo de divisão lógico. Neste grupo 
 contém usuários, credenciais, perfis e grupos.
@@ -16,17 +16,17 @@ você só consegue gerenciar usuários que o próprio Realm controla.
 
 Vamos lá. Depois de você logar no Keycloak devemos utilizar a opção "Add Realm". Como mostra a figura abaixo
 
-![add realm](../images/keycloak/add-realm.png "criação do realm")
+![add realm](/assets/images/keycloak/add-realm.png "criação do realm")
 
 
 Você será redirecionado para a página de inclusão de Realm o procedimento é bastante simples, precisamos
 somente configurar um nome.
 
-![realm name](../images/keycloak/realm-name.png "configurar nome do realm")
+![realm name](/assets/images/keycloak/realm-name.png "configurar nome do realm")
 
 Preenchido o nome podemos clicar em **Create**
 
-Pronto!!!
+Pronto!
 
 Simples assim, você deverá ser redirecionado para a tela de configurações do Realm.
 
